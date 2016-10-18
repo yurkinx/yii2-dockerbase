@@ -15,6 +15,7 @@ RUN apt-get update \
             libjpeg62-turbo-dev \
             libmcrypt-dev \
             libpng12-dev \
+            wget \
             zlib1g-dev \
         --no-install-recommends \
 
