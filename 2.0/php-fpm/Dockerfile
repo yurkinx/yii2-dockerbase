@@ -21,7 +21,7 @@ RUN apt-get update \
     && rm -r /var/lib/apt/lists/* \
     && docker-php-ext-install iconv mcrypt exif\
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
-    && docker-php-ext-install gd
+    && docker-php-ext-install gd \
 
     # Install PHP extensions
     && docker-php-ext-install intl \
