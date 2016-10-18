@@ -1,0 +1,2 @@
+cd 2.0/php-fpm
+docker build -t yurkinx/yii2-dockerbase:2.0.9-php-fpm .
